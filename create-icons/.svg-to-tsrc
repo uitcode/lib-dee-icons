@@ -1,0 +1,15 @@
+{
+    "conversionType": "files",
+    "srcFiles": [
+      "./svg-icons/**/*.svg"
+    ],
+    "outputDirectory": "./dist/icons",
+    "interfaceName": "DeeIcons",
+    "typeName": "deeIcons",
+    "prefix": "deeIcons",
+    "generateType": true,
+    "exportCompleteIconSet": true,
+    "optimizeForLazyLoading": true,
+    "modelFileName": "dee-icons.model",
+    "compileSources": true
+}
