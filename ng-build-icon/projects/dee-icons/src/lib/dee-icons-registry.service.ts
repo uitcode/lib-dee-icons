@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { DeeIcons, deeIcons } from 'dee-icons';
+import { DeeIcons, deeIcons } from '../icons';
 
 @Injectable({
   providedIn: 'any',

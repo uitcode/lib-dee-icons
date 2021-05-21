@@ -8,11 +8,11 @@
 /bazel-out
 
 # dependencies
-/dee-icons/node_modules
+/ng-build-icon/node_modules
 /create-icons/node_modules
 /test-icon/node_modules
 
-/dee-icons/dist
+/ng-build-icon/dist
 /create-icons/dist
 /test-icon/dist
 /dee-icons/projects/dee-icons/node_modules

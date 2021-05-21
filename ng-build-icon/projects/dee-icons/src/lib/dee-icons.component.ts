@@ -9,13 +9,13 @@ import {
   ViewEncapsulation,
 } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
-import { DeeIcons, deeIcons } from 'dee-icons';
+import { deeIcons } from '../icons';
 import { DeeIconsRegistry } from './dee-icons-registry.service';
 
 @Component({
   selector: 'dee-icons',
   template: ` <ng-content></ng-content> `,
-  styles: [':host::ng-deep svg{width: 40px; height: 40px}'],
+  styles: [':host::ng-deep svg{width: 16px; height: 16px}'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class DeeIconsComponent {

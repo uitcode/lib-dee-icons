@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DeeIconsModule, DeeIconsRegistry } from 'ng-dee-icons';
-import { deeIconsDashboard } from 'dee-icons';
+import { deeIconsDashboard } from 'ng-dee-icons/icons';
 
 @NgModule({
   declarations: [AppComponent],
